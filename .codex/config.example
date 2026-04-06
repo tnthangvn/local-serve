@@ -1,0 +1,11 @@
+# .codex/config.toml
+model = "gpt-5.4"
+approval_policy = "never"
+sandbox_mode = "workspace-write"
+
+[sandbox_workspace_write]
+network_access = true
+
+[mcp_servers.npx-figma]
+args = ["-y", "figma-developer-mcp", "--stdio", "--figma-api-key", ""]
+command = "npx"
