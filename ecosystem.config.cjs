@@ -10,6 +10,10 @@ module.exports = {
       env: {
         NODE_ENV: 'production',
       },
+      out_file: './logs/9router-out.log',
+      error_file: './logs/9router-error.log',
+      merge_logs: true,
+      log_date_format: 'YYYY-MM-DD HH:mm:ss',
     },
   ],
 };
